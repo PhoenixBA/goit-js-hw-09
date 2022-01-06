@@ -25,9 +25,9 @@ refs.btnStop.addEventListener('click', onStopClick);
 //refs.btnStop.setAttribute = ('disabled', 'true');
 //refs.btnStop.disabled = true;
 
-//стиль поменять получилось, но не реагирует disabled
-//refs.btnStart.style = (`color: red; border-radius: 50%; border: none; background: pink;`);
-//refs.btnStop.style = (`color: red; border-radius: 50%; border: none; background: pink;`) 
+//стиль кнопок
+refs.btnStart.style = (`color: white; border-radius: 30%; background: tomato;`);
+refs.btnStop.style = (`color: white; border-radius: 30%; background: tomato;`) 
 
 function onIntervalClick() { 
   intervalId = setInterval(() => {
